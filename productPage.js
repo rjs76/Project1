@@ -54,3 +54,16 @@ var mockDatabase = {
 		product_description : "<ul class='description_list'><li>Fabric Cleaner Fabric cleaner: cleans cloth, carpet, upholstery, and more.</li><li>Stain Remover breaks down set-in stains.</li><li>High-sudsing foaming action lifts dirt & stains.</li><li>Removes foul odors and helps prevent new ones over time.</li><li>Restores a like-new look and feel to fabrics and interior cloth surfaces.</li></ul>"
 	}
 };
+
+let title = mockDatabase.product_1['product_name'];
+document.getElementById("title").innerHTML = title;
+
+let price = mockDatabase.product_1['product_price'];
+document.getElementById("price").innerHTML = price;
+
+
+let description = mockDatabase.product_1['product_description'];
+document.getElementById("description").innerHTML = description;
+
+let image = mockDatabase.product_1['product_image'];
+document.getElementById("image").innerHTML = image;
