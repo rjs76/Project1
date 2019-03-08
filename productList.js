@@ -2,20 +2,13 @@
 var orderMenu = document.getElementById("orderMenu")
   orderMenu.addEventListener("change", filter)
                           
-var pointerPrice = document.getElementById("Price")
-var pointerCategory = document.getElementById("Category")
-var pointerName = document.getElementById("Name")
-var pointerTools = document.getElementById("Tools")
-
-  
-function filter(){
-  if (orderMenu.value == "")
-    {pointerTitle.style.display = "none"; pointerPrice.style.display = "none"; pointerCategory.style.display = "none" }
-  if (orderMenu.value =="Price") 
-    {pointerPrice.style.display = "block"; pointerCategory.style.display = "none"; pointerTitle.style.display = "none"}
-  if (orderMenu.value == "Trans") 
-    {pointerCategory.style.display = "block"; pointerPrice.style.display = "none"; pointerTitle.style.display = "none"}
-
+var vac = documtent.getEleemntById("vacuum");
+function name(){
+	
+}  
+function tools(){
+	if (toolMenu.value == "vacuum")
+		{vac.style.display = "block";}
 }
  
 	var products = [
