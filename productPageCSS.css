@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #F5F5DC;
+	width: default;
+}
+
+.navmenu{
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+.navli{
+	float: left;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	color: white;
+	font-size: 18px;
+}
+
+hr{
+	width: 90%;file:///C:/Users/khare/OneDrive/NJIT/IS%20322/project1Images/cleaner.webp
+}
+
+3filters{
+	float: left;
+	clear: left;
+}
+
+.products{
+	float: center;
+	max-width: 1200px;
+	margin: auto;
+	background-color: #F5F5DC;
+	overflow: auto;
+}
+
+.product{
+	margin: 1px;
+	float: left;
+	width: 390px;
+}
+
+.product img{
+	width: 95%;
+	height: 95;
+}
+
+.cart{
+	padding: 15px;
+	text-align: center;
+}
+
+.price{
+	text-align: center;
+}
+
+.name{
+	text-align: center;
+}
+
+img {
+	margin: 5px;
+	border: 4px solid grey;
+	float: left;
+	width: 390px;
+}
+
+
+@media screen and (max-width: 1366px) {
+	.navmenu{
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		background-color: gray;
+	}
+	.navli{
+		float: left;
+	}
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.navmenu{
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		background-color: gray;
+	}
+	.navli{
+		float: left;
+	}
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+		font-size: 18px;
+	}
+	
+@media screen and (max-width: 768px) {
+	.navmenu{
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		background-color: gray;
+	}
+	.navli{
+		float: left;
+	}
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+		font-size: 18px;
+	}
+
+	
+@media screen and (max-width: 411px) {
+	.navmenu{
+		list-style-type: none;
+		margin: 0;
+		overflow: hidden;
+		background-color: gray;
+	}
+	.navli{
+		float: left;
+	}
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+		color: white;
+		font-size: 18px;
+	}
