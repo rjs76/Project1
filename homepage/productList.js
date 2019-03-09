@@ -3,6 +3,8 @@ var orderMenu = document.getElementById("orderMenu")
   orderMenu.addEventListener("change", filter)
                           
 var vac = documtent.getEleemntById("vacuum");
+var Ucleaner = document.getElementById("Ucleaner");
+var fcleaner
 function name(){
 	
 }  
@@ -68,3 +70,6 @@ function tools(){
         }
 	];
  
+function orderBy(){
+	var sortInfo = 
+} 

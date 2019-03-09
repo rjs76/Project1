@@ -1,3 +1,27 @@
+@media only screen and (max-width: 411px){
+	.products{
+		background: red;
+	}
+}
+
+@media only screen and (min-width: 768px){
+	.products{
+		background: green;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+	.products{
+		background: pink;
+	}
+}
+
+@media only screen and (min-width: 1366px){
+	.products{
+		background: orange;
+	}
+}
+
 *{
 	box-sizing: border-box;
 }
